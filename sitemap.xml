@@ -7,107 +7,134 @@
 <url>
   <loc>https://excitetemplate.com/</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/about-us.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/services.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/web-development-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/mobile-app-development-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/digital-marketing-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/seo-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/ui-ux-design-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/graphic-design-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/branding-design-portfolio.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/website-design-portfolio.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/logo-design-portfolio.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/package-design-services-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/brochure-flyer-design-company-in-pune.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://excitetemplate.com/logo-design-pune.html</loc>
+  <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://excitetemplate.com/brochure-design-services-pune.html</loc>
+  <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/design-work-process.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/faq.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/contact.html</loc>
   <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/careers.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://excitetemplate.com/privacy-policy.html</loc>
-  <lastmod>2026-10-05</lastmod>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://excitetemplate.com/history.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://excitetemplate.com/logo-design-pune.html</loc>
+  <loc>https://excitetemplate.com/privacy-policy.html</loc>
   <lastmod>2026-10-05</lastmod>
-  <priority>0.64</priority>
+  <changefreq>yearly</changefreq>
+  <priority>0.30</priority>
 </url>
 
 </urlset>

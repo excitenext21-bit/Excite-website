@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://excitetemplate.com/sitemap.xml
+
+# Disallow admin/system files
+Disallow: /phpmailer/
+Disallow: /php_helpers/
+Disallow: /*.php$
+Disallow: /info.php
+Disallow: /contactmail.php
+Disallow: /contact_form.php
+Disallow: /email.php
+Disallow: /homemail.php
+Disallow: /mail.php
+Disallow: /class.phpmailer.php
+
+# Block error pages
+Disallow: /400.html
+Disallow: /404.html
+Disallow: /500.html
+
+# Block utility pages
+Disallow: /form.html
+Disallow: /quotes.html
+Disallow: /htaccess
+
+# Block Google verification files
+Disallow: /google28229a01e9db2a80.html
+Disallow: /google9883287b7ee2ae28.html
+Disallow: /BingSiteAuth.xml
