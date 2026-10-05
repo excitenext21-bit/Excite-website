@@ -1,1 +1,518 @@
-.some-css-selector{font-size:13px}.four-col-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-column-gap:20px;height:800px}@media only screen and (max-width:600px){.four-col-grid{grid-template-columns:1fr;grid-row-gap:20px;height:fit-content}}@media only screen and (min-width:320px) and (max-width:600px){.fs-xxl{font-size:19px!important}.fs-xxxl{font-size:29px!important}}::selection{background-color:#cd2122!important;color:#fff}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{box-shadow:inset 0 0 5px #cd2122!important}::-webkit-scrollbar-thumb{background:#cd2122!important;transition:.5s}::-webkit-scrollbar-thumb:hover{background:#a81f1f!important}.whatsapp{background:green;border-radius:5px;padding:8px;position:fixed;right:12px;bottom:100px}
+.some-css-selector {
+    font-size: 13px
+}
+
+.four-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    height: 800px
+}
+
+@media only screen and (max-width:600px) {
+    .four-col-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        height: fit-content
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:600px) {
+    .fs-xxl {
+        font-size: 19px !important
+    }
+
+    .fs-xxxl {
+        font-size: 29px !important
+    }
+}
+
+::selection {
+    background-color: #cd2122 !important;
+    color: #fff
+}
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #cd2122 !important
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cd2122 !important;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a81f1f !important
+}
+
+.whatsapp {
+    background: green;
+    border-radius: 5px;
+    padding: 8px;
+    position: fixed;
+    right: 12px;
+    bottom: 100px
+}
+
+.process-steps {
+    text-align: center;
+    max-width: 1400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.process-steps h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.step {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .step {
+        flex: 1 1 48%;
+        margin: 10px 1%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .step {
+        flex: 1 1 18%;
+        margin: 0 1%;
+    }
+
+    .step:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -50%;
+        width: calc(100% + 100%);
+        height: 2px;
+        background-color: #ddd;
+        z-index: -1;
+        transform: translateY(-50%);
+    }
+}
+
+.step .icon {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .07);
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.step .icon img {
+    width: auto;
+    height: 50px;
+}
+
+.animate-icon:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+    margin-top: -5px;
+    background-color: #cd2122;
+}
+
+.size {
+    width: auto;
+    height: 70px !important;
+}
+
+.step p {
+    font-size: 14px;
+    color: #777;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.headers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.header-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+p.title-b {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+    line-height: 1.4;
+}
+
+.title-b {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.4;
+}
+
+.title-p {
+    color: #1a1a1a !important;
+}
+
+.btn-bn {
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #fff !important;
+    padding: 8px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 5px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.btn-bn:hover {
+    background-color: #a81f1f;
+}
+
+.cta-btn {
+    background-color: #cd2122;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.cta-btn:hover {
+    background-color: #a81f1f;
+}
+
+/* Style for the form container */
+.banner-form {
+    width: 25%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px 20px 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #646464;
+    position: absolute;
+    /* Changed to absolute */
+    top: 125px;
+    /* Center vertically */
+    right: 165px;
+    /* Center horizontally */
+}
+
+.banner-form h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+/* Style for form fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    background-color: #a80606;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover {
+    background-color: #710101;
+}
+
+::placeholder {
+    color: rgb(163, 163, 163);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0 6px;
+}
+
+/* Media queries for responsiveness on small, medium, and extra-large screens */
+@media (max-width: 1199px) {
+    .banner-form {
+        width: 40%;
+        right: auto;
+        /* Remove the right positioning for smaller screens */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-form {
+        width: 75%;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-form {
+        width: 90%;
+    }
+}
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .banner-form {
+        width: 90%;
+        /* Adjust width for smaller screens */
+        max-width: none;
+        /* No maximum width */
+        padding: 20px;
+        /* Increase padding for better spacing on smaller screens */
+        position: relative;
+        /* Changed to relative */
+        top: 10px;
+        /* Center vertically */
+        left: 162px;
+        /* Center horizontally */
+    }
+}
+
+.static-content {
+    padding-top: 1px !important;
+    width: 60%;
+}
+/* Media queries for responsiveness */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+    .static-content {
+        width: 90%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .static-content {
+        width: 80%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .static-content {
+        width: 70%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .static-content {
+        width: auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    .static-content {
+        width: 60%; /* Keep the same width for large screens */
+    }
+}
+
+/* Technologies We Use section start */
+
+/* Base styles */
+
+.text-center {
+    text-align: center;
+}
+
+.sub-text {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.logos-sec {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.logo1 {
+    text-align: center;
+    transition: filter 0.5s ease-in-out;
+}
+
+.logo1:hover img {
+    filter: none;
+}
+
+.tech-logo {
+    width: 40%;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.tech-name {
+    font-size: 16px;
+}
+
+/* Media queries for responsiveness */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+    .logos-sec {
+        margin-left: 0;
+    }
+
+    .tech-logo {
+        width: 60%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .logos-sec {
+        margin-left: 0;
+    }
+
+    .tech-logo {
+        width: 55%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .logos-sec {
+        margin-left: 0;
+    }
+
+    .tech-logo {
+        width: 50%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .logos-sec {
+        margin-left: 0;
+    }
+
+    .tech-logo {
+        width: 45%;
+    }
+}
+
+/* Technologies We Use section END */
+
+/* Call To Action section Start */
+
+/* Base styles */
+
+@media (max-width: 575px) {
+    .callout-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .m_title {
+        font-size: 16px !important;
+        margin-left: 0;
+    }
+
+    .fw-bold {
+        font-size: 24px !important;
+    }
+
+    .btn-div {
+        margin-left: 0;
+    }
+
+    .cta-btn {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .m_title {
+        font-size: 17px !important;
+    }
+
+    .fw-bold {
+        font-size: 26px !important;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .m_title {
+        font-size: 16px !important;
+    }
+
+    .fw-bold {
+        font-size: 28px !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .m_title {
+        font-size: 18px !important;
+    }
+
+    .fw-bold {
+        font-size: 28px !important;
+    }
+}
+
+/* Call To Action section END */

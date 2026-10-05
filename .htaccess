@@ -7,6 +7,19 @@
     RewriteCond %{HTTP_HOST} ^www\.excitetemplate\.com$
     RewriteRule ^/?$ "http\:\/\/excitetemplate\.com\/" [R=301,L]
 </IfModule>
+# Redirects for renamed pages
+RewriteEngine On
+RewriteRule ^website-design-pune\.html$ /web-development-company-in-pune.html [R=301,L]
+RewriteRule ^website-development-pune\.html$ /web-development-company-in-pune.html [R=301,L]
+RewriteRule ^mobile-app-development\.html$ /mobile-app-development-company-in-pune.html [R=301,L]
+RewriteRule ^online-marketing-services\.html$ /digital-marketing-company-in-pune.html [R=301,L]
+RewriteRule ^seo-services-pune\.html$ /seo-company-in-pune.html [R=301,L]
+RewriteRule ^logo-designer-pune\.html$ /graphic-design-company-in-pune.html [R=301,L]
+RewriteRule ^graphic-designer-pune\.html$ /graphic-design-company-in-pune.html [R=301,L]
+RewriteRule ^gsuite-provider-pune\.html$ /services.html [R=301,L]
+RewriteRule ^frontend-development\.html$ /web-development-company-in-pune.html [R=301,L]
+RewriteRule ^brochure-design-services-pune\.html$ /brochure-flyer-design-company-in-pune.html [R=301,L]
+
 <IfModule mod_expires.c>
   ExpiresActive On
 
